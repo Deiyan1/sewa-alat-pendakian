@@ -48,18 +48,16 @@ export default async function Home(props: PageProps) {
 
       <main className="flex-1 bg-background">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-radial from-[#133024] via-background to-background py-16 sm:py-24 border-b border-border/10">
-          <div className="absolute top-[-10%] left-[20%] w-[30%] h-[30%] rounded-full bg-primary/10 blur-[100px]" />
-          
+        <section className="relative overflow-hidden bg-background py-16 sm:py-24 border-b border-border/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-xs font-semibold text-primary mb-6">
               <Sparkles className="w-3.5 h-3.5" />
               Sewa Alat Gunung Premium
             </div>
             
-            <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6">
+            <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 text-foreground">
               Jelajahi Alam Bebas Dengan<br />
-              <span className="text-primary bg-clip-text">Perlengkapan Terbaik</span>
+              <span className="text-primary">Perlengkapan Terbaik</span>
             </h1>
             
             <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground mb-8">
