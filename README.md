@@ -79,10 +79,11 @@ Buka [http://localhost:3000](http://localhost:3000) pada browser Anda.
 
 ## 👑 Cara Membuat Akun Admin
 
-1. Buka `http://localhost:3000/register` dan daftarkan akun baru (misal: `admin.sewa@gmail.com`).
-2. Buka **[Supabase Table Editor - Profiles](https://supabase.com/dashboard/project/vckwdxjshzlwzopgusvd/editor)**.
-3. Ubah kolom `role` akun tersebut dari `'customer'` menjadi `'admin'`.
-4. Login kembali di `http://localhost:3000/login`, Anda akan otomatis diarahkan ke Dashboard Admin `/admin/dashboard`.
+1. Buka `http://localhost:3000/register` dan daftarkan akun baru
+   (misal: admin@sewa.com pasword: admin123 / user@sewa.com password: user123)
+3. Buka **[Supabase Table Editor - Profiles](https://supabase.com/dashboard/project/vckwdxjshzlwzopgusvd/editor)**.
+4. Ubah kolom `role` akun tersebut dari `'customer'` menjadi `'admin'`.
+5. Login kembali di `http://localhost:3000/login`, Anda akan otomatis diarahkan ke Dashboard Admin `/admin/dashboard`.
 
 ---
 
