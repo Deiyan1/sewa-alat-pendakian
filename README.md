@@ -113,4 +113,4 @@ Muhammad Dedy Khoirulliyan_101230030
 
 ## Website
 
-https://sewa-alat-pendakian-azure.vercel.app/(https://sewa-alat-pendakian-azure.vercel.app/)
+https://sewa-alat-pendakian-azure.vercel.app/
